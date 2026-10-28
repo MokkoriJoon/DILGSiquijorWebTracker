@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-dilg-blue: #1e3a8a;
+  --color-dilg-blue-light: #2563eb;
+  --color-dilg-orange: #f97316;
+  --color-dilg-orange-dark: #ea580c;
+}
+
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
